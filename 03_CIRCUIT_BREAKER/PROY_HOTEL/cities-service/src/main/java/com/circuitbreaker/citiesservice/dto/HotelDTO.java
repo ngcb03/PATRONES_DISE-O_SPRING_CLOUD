@@ -1,9 +1,9 @@
-package com.circuitbreaker.hotelsservice.model;
+package com.circuitbreaker.citiesservice.dto;
 
 import lombok.Data;
 
 @Data
-public class Hotel {
+public class HotelDTO {
 
     private Long hotel_id;
     private Long city_id;
